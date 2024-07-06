@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.chat-container {
+  display: flex;
+}
+
+.user-list {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.user-list div {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.user-list div:hover {
+  background-color: #f0f0f0;
+}
+
+.chat-area {
+  width: 80%;
+  padding: 10px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.message-input {
+  display: flex;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.message-input button {
+  padding: 10px;
+}
+
+.sent {
+  text-align: right;
+  background-color: #e0ffe0;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.received {
+  text-align: left;
+  background-color: #e0e0ff;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
